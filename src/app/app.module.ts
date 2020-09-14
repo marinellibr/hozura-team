@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FeedComponent } from './feed/feed.component';
+import { GraficoFeedbackComponent } from './grafico-feedback/grafico-feedback.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FeedComponent,
+    GraficoFeedbackComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
