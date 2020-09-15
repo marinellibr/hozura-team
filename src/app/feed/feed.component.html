@@ -1,3 +1,11 @@
-<p>feed works!</p>
+<div class="fundo" (click)="apresentacao()">
+    <p *ngIf="slide == 0">
+        E aí, {{nomeDeInvocador}}, suave?
+    </p>
 
-<p>user: {{nomeDeInvocador}}</p>
+    <p *ngIf="slide == 1">Pronto pra conhecer o novo sistema da <b>HozurA</b>?</p>
+
+    <p *ngIf="slide == 2">Falta pouco, mas ainda estamos em desenvolvimento</p>
+
+    <p *ngIf="slide == 3">Logo logo você terá seu acesso liberado ao sistema.</p>
+</div>

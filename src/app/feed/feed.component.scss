@@ -1,0 +1,31 @@
+@font-face {
+    font-family:"Lol";
+    src: url("../../assets/fonts/Friz\ Quadrata\ Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"Hozura";
+    src: url("../../assets/fonts/Indiana.otf") format("opentype");
+}
+
+.fundo{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    font-family: "Lol";
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        color: white;
+        font-size: 72px;
+
+        b{
+            font-family: "Hozura";
+        }
+    }
+
+
+}
